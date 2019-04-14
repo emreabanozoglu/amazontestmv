@@ -36,6 +36,7 @@ public class MainTest extends BaseTest{
     public void SearchIPhoneAndClickIPhoneX() throws InterruptedException {
         homePage.searchItem("iPhone");
         Reporter.log("iPhone searched");
+        Thread.sleep(1000);
         homePage.clickiPhoneXSuggestion();
         Reporter.log("Clicked iPhoneX suggesstion");
     }

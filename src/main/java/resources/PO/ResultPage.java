@@ -12,7 +12,7 @@ public class ResultPage extends BasePage {
     public ResultPage(WebDriver driver, WebDriverWait wait) { super(driver,wait); }
 
     //Page Objects
-    public static final String addedBasketXpath = ""; //     //*[@id="huc-v2-order-row-confirm-text"]/h1
+    public static final String addedBasketXpath = "//*[@id=\"huc-v2-order-row-confirm-text\"]/h1";
 
     //Page Methods
     //------------
